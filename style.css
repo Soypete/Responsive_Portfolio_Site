@@ -19,3 +19,7 @@ footer {
   width: 25%;
   word-wrap: inherit;
 }
+ .head{
+   align-items: flex-start;
+   margin: 5%;
+ }
