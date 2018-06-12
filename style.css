@@ -1,7 +1,21 @@
-footer{
-  font:calibir
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
-#logo{
-  width: 20px
+footer {
+  font: Arial;
+}
+.logo {
+  width: 25%;
+  word-wrap: inherit;
+}
 
+.profile_pic {
+  width: 25%;
+  word-wrap: inherit;
+}
+.pic2 {
+  width: 25%;
+  word-wrap: inherit;
 }
