@@ -2,24 +2,44 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  flex-direction: inherit;
 }
+
 footer {
   font: Arial;
 }
+
+img{
+  object-fit: contain;
+  display: block;
+  max-width:400px;
+  max-height:400px;
+}
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
 .logo {
   width: 25%;
+  height: auto;
   word-wrap: inherit;
 }
 
 .profile_pic {
   width: 25%;
+  height: auto;
   word-wrap: inherit;
 }
+
 .pic2 {
   width: 25%;
+  height: auto;
   word-wrap: inherit;
 }
- .head{
-   align-items: flex-start;
+
+ .head {
    margin: 5%;
  }
